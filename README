@@ -3,9 +3,19 @@ Portada en latex de tesis doctoral para universidad española
 
 Archivo con comando \newcommand*{\tituloUCM} para crear
 una portada de una tesis doctoral de una universidad
-española.
+española. Sustituye al comando \maketitle.
 
-Sustituye al comando \maketitle
+El archivo debe modificarse utilizando los datos del usuario.
+
+El logotipo que debe utilizarse es el de la universidad correspondiente.
+
+Ejemplo
+-------
+
+Hay un ejemplo del resultado del código en el archivo portada.pdf.
+
+Licencia
+--------
 
 Se permite la reproducción, distribución, difusión y transformación
-de este código sin ningún limite.
+de este código sin restricción alguna.
