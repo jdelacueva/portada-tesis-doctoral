@@ -1,0 +1,105 @@
+\documentclass[a4paper,12pt]{book}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage[english,spanish]{babel}
+
+% Instrucciones:
+% Creamos el comando \tituloUCM
+% Este comando se define en la cabecera del documento en latex
+% y se emplea dentro del documento
+
+\newcommand*{\tituloUCM}{%
+
+  \thispagestyle{empty}
+  \begin{center}
+
+    % Cabeceras
+    \textsc{\LARGE Universidad Complutense de Madrid}\\[1.0cm] % Nombre de la universidad
+    \textsc{\Large Facultad de Filosofía}\\[1.0cm] % Nombre de la facultad
+    \textsc{\large Departamento de Filosofía del Derecho, Moral y Política II}\\[1.5cm] % Nombre del departamento
+
+    % Logotipo
+    % Sustituir por el de la universidad de que se trate
+    % Los logotipos de las universidades los encuentras mediante
+    % cualquier búsqueda en Google Images
+    \includegraphics[width=40mm]{logoucm.eps}\\[2.0cm]
+    
+    % Título
+    \textsc{Tesis doctoral}\\[0.5cm]
+    \textsc{\Large Pragmáticas tecnológicas ciudadanas y regeneración
+      democrática}\\[1.5cm] % Título de la tesis
+    
+    % Doctorando
+    \begin{minipage}{0.4\textwidth}
+      \begin{flushleft} \large
+        \emph{Doctorando:}\\
+        Javier \textsc{de la Cueva González-Cotera} % Nombre del doctorando
+      \end{flushleft}
+    \end{minipage}
+    ~
+    % Director de la tesis
+    \begin{minipage}{0.4\textwidth}
+      \begin{flushright} \large
+        \emph{Director:} \\
+        Dr. Andoni \textsc{Alonso Puelles} % Nombre del director
+      \end{flushright}
+    \end{minipage}\\[0.5cm]
+    
+    % Fecha
+    {\large Madrid, 2014}\\[0cm] % Fecha
+    
+    \vfill % Fill the rest of the page with whitespace
+  \end{center}
+}
+
+% Comenzamos el documento
+
+\begin{document}
+
+% Front matter
+%---------------------------------------------------------------------
+
+%\frontmatter
+
+\tituloUCM % <------ Título
+%\cleardoublepage % Genera una página par en blanco
+
+% Aquí el demás contenido de la tesis doctoral
+
+%\include{licencia}
+%\include{dedicatoria}
+%\clearpage
+%\tableofcontents*
+%\listoftables
+%\listoffigures
+%\include{english-abstract}
+%\include{agradecimientos}
+%\include{acronimos}
+%\include{cita-inicial}
+
+% Main matter
+%---------------------------------------------------------------------
+
+%\mainmatter
+
+%\include{introduccion}
+%\include{capitulo1}
+%\include{capitulo2}
+% ...
+%\include{conclusiones}
+
+% Back matter
+%---------------------------------------------------------------------
+
+%\backmatter
+
+% Bibliografía
+% Indices...
+
+\end{document}
+
+%%% Local Variables: 
+%%% mode: latex
+%%% TeX-master: t
+%%% End: 
